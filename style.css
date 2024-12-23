@@ -1,0 +1,364 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+
+}
+
+.border {
+  border: 2px solid red;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.txtNone {
+  text-decoration: none;
+  color: grey;
+}
+
+.active {
+  color: black;
+  text-decoration: underline;
+  text-decoration-color: #1e3932;
+}
+
+.navbar {
+  width: 100%;
+  height: 7vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.navOptions {
+  width: 40%;
+  justify-content: space-evenly;
+  font-size: 1.4rem;
+  text-decoration: none;
+}
+
+.searchInput {
+  width: 25%;
+  justify-content: space-around;
+}
+
+.inputbar {
+  border: 1px solid grey;
+  width: 60%;
+  height: 100%;
+  border-radius: 2vw;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+  padding-left: 2%;
+}
+
+.navSearch {
+  border: none;
+  width: 80%;
+  font-size: 1rem;
+  margin-left: 2%;
+  outline: none;
+}
+
+.offers {
+  width: 100%;
+  height: 7vh;
+  background-color: #1e3932;
+  justify-content: space-around;
+}
+
+.text {
+  color: white;
+  font-size: x-large;
+  font-weight: 100;
+  margin-right: 9%;
+}
+
+.knowMoreBtn {
+  width: 7%;
+}
+
+.kmbtn {
+  background-color: transparent;
+  border-radius: 3vh;
+  width: 100%;
+  height: 3vh;
+  color: white;
+  border: 1px solid white;
+}
+
+.bestSeller {
+  width: 70%;
+  height: 25vh;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.textPart {
+  height: 18%;
+  width: 100%;
+  font-size: xx-large;
+  justify-content: start;
+  margin-top: 1%;
+  font-weight: 700;
+}
+
+.products {
+  height: 80%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  align-items: start;
+  margin-top: 1%;
+}
+
+.productImage {
+  width: 10%;
+  height: 54%;
+  border-radius: 50%;
+}
+
+.savings {
+  height: 25vh;
+  width: 70%;
+  margin-left: 15%;
+  margin-right: 15%;
+  background-image: url("./photo_2023-11-07_19-40-05.jpg");
+  justify-content: space-around;
+}
+
+.flagImage {
+  width: 10%;
+  height: 70%;
+  margin-top: 0%;
+}
+
+.savingText {
+  font-size: large;
+  height: 100%;
+  width: 65%;
+  padding-top: 0.5%;
+  line-height: 23px;
+}
+
+.savingbtn {
+  height: 100%;
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  width: 20%;
+}
+
+.kmBtn {
+  height: 25%;
+  width: 60%;
+  background-color: #00754a;
+  color: white;
+  border: none;
+  border-radius: 3vh;
+  margin-bottom: 5%;
+  margin-right: 10%;
+}
+
+.latestOffering {
+  width: 70%;
+  margin-left: 15%;
+  margin-right: 15%;
+  height: 5vh;
+  margin-top: 10vh;
+  font-size: 2.5vh;
+  font-weight: 900;
+}
+
+.offerings {
+  width: 70%;
+  margin-left: 15%;
+  margin-right: 15%;
+  height: 45vh;
+  display: flex;
+  justify-content: space-between;
+}
+
+.offerProduct {
+  height: 100%;
+  width: 31%;
+  border-radius: 1vh;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.offerProduct:hover {
+  cursor: pointer;
+}
+
+.imageoffer {
+  height: 40%;
+  width: 100%;
+  background-image: url("./102253.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-top-right-radius: 3vh;
+  border-top-left-radius: 1vh;
+
+}
+
+.imageOffer {
+  height: 40%;
+  width: 100%;
+  background-image: url("./102257.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-top-right-radius: 3vh;
+  border-top-left-radius: 1vh;
+}
+
+.imageoffers {
+  height: 40%;
+  width: 100%;
+  background-image: url("./102260.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-top-right-radius: 3vh;
+  border-top-left-radius: 1vh;
+
+}
+
+.textOffer {
+  height: 50%;
+  width: 100%;
+  background-color: #ffffff;
+  padding-top: 8%;
+  padding-left: 5%;
+  border-bottom-right-radius: 3vh;
+  border-bottom-left-radius: 3vh;
+}
+
+.priceBtn {
+  width: 100%;
+  height: 30%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 10% 0% 0%;
+  margin-top: 5%;
+}
+
+.AddItem {
+  border-radius: 3vh;
+  width: 30%;
+  height: 50%;
+  background-color: #00754a;
+  color: white;
+  border: none;
+}
+
+.AddItem:hover {
+  background-color: #1e3932;
+  cursor: pointer;
+}
+
+.baristasection {
+  width: 100%;
+  height: 35vh;
+  margin-top: 15vh;
+  background-color: lightgrey;
+}
+
+.baristaText {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  height: 15%;
+  width: 70%;
+  margin-left: 15%;
+}
+
+.baristaProduct {
+  height: 78%;
+  width: 70%;
+  margin-left: 15%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.milkshakes {
+  width: 30%;
+  height: 70%;
+  margin-right: 3%;
+  background-color: #ffffff;
+  border-radius: 1vh;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+.imageAndDes {
+  width: 100%;
+  display: flex;
+  height: 50%;
+  justify-content: start;
+  align-items: center;
+
+}
+
+.milkshakeImage {
+  height: 80%;
+  width: 25%;
+  margin-left: 5%;
+
+}
+
+.milkshakeDes {
+  height: 40%;
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  margin-left: 3%;
+}
+
+.priceAndAdditem {
+  margin-top: 7%;
+  width: 95%;
+  margin-left: 5%;
+}
+
+.learningPart {
+  height: 50vh;
+  width: 100%;
+  margin-top: 15vh;
+  background-color: lightgrey;
+}
+
+.coffebeanImage {
+  height: 70%;
+  width: 70%;
+  margin-left: 15%;
+  margin-top: 1%;
+  background-image: radial-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(./coffee_culture_blog_web1_c6e691b286.jpg);
+  background-size: cover;
+  border-radius: 1vh;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  padding-left: 3%;
+}
+
+.coffebeanImage:hover {
+  background-image: radial-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), url(./coffee_culture_blog_web1_c6e691b286.jpg);
+}
+
+.learnMore {
+  width: 17%;
+  background-color: lightgray;
+  border-radius: 2vh;
+  border: none;
+  height: 10%;
+  font-size: large;
+}
